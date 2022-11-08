@@ -1,0 +1,391 @@
+/* TOP NAVIGATION */
+.topnav {
+    font-weight: var(--fw-reg);
+    font-size: var(--fs-rg1);
+    background: var(--clr-mostaza-001);
+}
+
+.downnav {
+    width: 100%;
+    height: 25rem;
+    font-weight: var(--fw-reg);
+    font-size: var(--fs-rg1);
+    background: var(--clr-mostaza-001);
+
+}
+
+/* TOP NAVIGATION */
+
+
+/* BUTTONS */
+.btn {
+    display: inline-flex;
+    border-radius: 1.25rem;
+    padding: .1875rem 1.25rem;
+    font-size: var(--fs-rg2);
+    font-weight: var(--fw-Semibold);
+}
+
+.btn-green {
+    color: var(--clr-negro-001);
+    border-color: var(--clr-verde-001);
+    background: var(--clr-verde-001);
+}
+
+.btn-mostaza {
+    color: var(--clr-white);
+    border-color: var(--clr-mostaza-001);
+    background: var(--clr-mostaza-001);
+}
+
+.ver-mas {
+    color: var(--clr-mostaza-001);
+    font-size: .9375rem;
+    font-weight: 600;
+    cursor: pointer;
+    margin-right: 25px;
+}
+
+.ver-mas:hover {
+    color: var(--clr-verde-002);
+}
+
+/* BUTTONS */
+
+/* BADGE */
+.badge {
+    display: inline-flex;
+    border-radius: 1.25rem;
+    padding: 0.625rem 1.25rem;
+    font-size: var(--fs-sm);
+}
+
+/* BADGE */
+
+/* Line */
+.border-line {
+    border-top: .15rem solid var(--clr-negro-001);
+}
+
+/* Line */
+
+/* Forms */
+
+.bg-base {
+    background: url(../../imgs/bg-base.svg) no-repeat;
+    width: 100vw;
+    height: 100vh;
+}
+
+.bg-dark-base {
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.8)), url(../../imgs/bg-base.svg) no-repeat;
+    width: 100vw;
+    height: 100vh;
+}
+
+.container-base {
+    width: 79vw;
+    height: 100vh;
+    margin: auto;
+}
+
+.text-input {
+    box-sizing: border-box;
+    width: 21.875rem;
+    height: 2.5rem;
+    padding: .625rem;
+    border: 2px solid var(--clr-negro-001);
+    border-radius: 20px;
+}
+
+/* Forms */
+
+/* Profile */
+
+.profile-image {
+    width: 450px;
+    border-radius: 230px;
+    border: solid 5px var(--clr-mostaza-001);
+}
+
+/* Profile */
+
+/* Cards */
+
+a {
+    text-decoration: none;
+}
+
+.base {
+    display: flex;
+    justify-content: center;
+    margin-top: 300px;
+}
+
+.card-bg {
+    width: 220px;
+    height: 210px;
+    border-radius: 30px;
+    background: black;
+    position: relative;
+}
+
+.card-image {
+    width: 220px;
+    height: 150px;
+    border-radius: 15px;
+    object-fit: cover;
+    position: absolute;
+}
+
+.card-data {
+    bottom: 0px;
+    width: 220px;
+    height: 80px;
+    border-radius: 15px;
+    background: #231F20;
+    position: absolute;
+}
+
+.card-info {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    padding: 10px 15px 0 15px;
+    position: absolute;
+}
+
+.card-title {
+    font-size: 15px;
+    font-weight: 600;
+    margin-bottom: 2px;
+    color: #fff;
+}
+
+.card-time {
+    font-size: 12px;
+    font-weight: 400;
+    color: #fff;
+}
+
+.card-likes {
+    text-align: center;
+}
+
+.hearth {
+    color: #fff;
+    font-size: 20px;
+}
+
+.like-count {
+    font-size: 13px;
+    font-weight: 600;
+    margin-top: 3px;
+    text-align: center;
+    color: #fff;
+}
+
+.revision-options {
+    font-size: 2rem;
+    width: 100%;
+    position: absolute;
+    top: 215px;
+}
+
+.accept {
+    margin-right: 5px;
+    color: var(--clr-verde-002);
+    transition: 0.07s ease-in-out;
+    cursor: pointer;
+}
+
+.accept:hover {
+    scale: 1.05;
+}
+
+.decline {
+    margin-left: 5px;
+    color: var(--clr-rojo-001);
+    transition: 0.2s ease-in-out;
+    cursor: pointer;
+}
+
+.decline:hover {
+    scale: 1.05;
+}
+
+.edit-recipe {
+    color: #fff;
+    font-size: 20px;
+}
+
+.card-labels {
+    bottom: 0;
+    padding: 0 0 10px 15px;
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+}
+
+.lbl {
+    font-size: 8px;
+    font-weight: 500;
+    color: #fff;
+    padding: 2px 5px;
+    border-radius: 7px;
+    margin-right: 2px;
+}
+
+.breakfast {
+    background: #C95630;
+}
+
+.lunch {
+    background: #C95630;
+}
+
+.dinner {
+    background: #C95630;
+}
+
+.easy {
+    background: var(--clr-verde-002);
+}
+
+.intermediate {
+    background: var(--clr-mostaza-001);
+}
+
+.advance {
+    background: var(--clr-rojo-001)
+}
+
+.lbl:hover {
+    color: #231F20;
+}
+
+.recipe-card {
+    scale: 1.4;
+    margin: 4.625rem 4.375rem 5.375rem 4.375rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: .15s ease-in-out;
+}
+
+.recipe-card:hover {
+    scale: 1.41;
+}
+
+/* Cards */
+
+
+/* Upload Input */
+
+.file-upload {
+    background-color: #fff;
+    width: 420px;
+    height: 80%;
+}
+
+.file-upload-btn {
+    width: 100%;
+    margin: 0;
+    color: #fff;
+    background: #1FB264;
+    border: none;
+    padding: 10px;
+    border-radius: 4px;
+    border-bottom: 4px solid #15824B;
+    transition: all .2s ease;
+    outline: none;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.file-upload-btn:hover {
+    background: #1AA059;
+    color: #ffffff;
+    transition: all .2s ease;
+    cursor: pointer;
+}
+
+.file-upload-btn:active {
+    border: 0;
+    transition: all .2s ease;
+}
+
+.file-upload-content {
+    display: none;
+    text-align: center;
+}
+
+.file-upload-input {
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    width: 420px;
+    height: 420px;
+    outline: none;
+    opacity: 0;
+    cursor: pointer;
+}
+
+.image-upload-wrap {
+    width: 420px;
+    height: 420px;
+    border: 4px solid #1FB264;
+    position: relative;
+}
+
+.image-dropping,
+.image-upload-wrap:hover {
+    background-color: #1FB264;
+    border: 4px solid #ffffff;
+}
+
+.drag-text {
+    height: 100%;
+    text-align: center;
+
+}
+
+.drag-text h3 {
+    font-weight: 100;
+    color: #15824B;
+    padding: 60px 0;
+}
+
+.file-upload-image {
+    height: 420px;
+    width: 420px;
+
+    margin: 80px 0 30px 0;
+    object-fit: cover;
+}
+
+.remove-image {
+    width: 200px;
+    color: #fff;
+    background: var(--clr-mostaza-001);
+    border: none;
+    padding: 10px;
+    border-radius: 30px;
+    transition: all .2s ease;
+    outline: none;
+    font-weight: 700;
+}
+
+.remove-image:hover {
+    background: #c13b2a;
+    color: #ffffff;
+    transition: all .2s ease;
+    cursor: pointer;
+}
+
+.remove-image:active {
+    border: 0;
+    transition: all .2s ease;
+}
+
+/* Upload Input */

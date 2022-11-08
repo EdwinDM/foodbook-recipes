@@ -1,0 +1,55 @@
+.title-sm1{
+    font-size: var(--fs-rg1);
+    font-weight: var(--fw-reg);
+}
+
+.title-sm2{
+    font-size: var(--fs-rg2);
+    font-weight: var(--fw-bold);
+}
+
+.title-sm3{
+    font-size: var(--fs-rg1);
+    font-weight: var(--fw-bold);
+}
+
+.title-md1{
+    font-size: var(--fs-md1);
+    font-weight: var(--fw-Semibold);
+}
+
+.title-md2{
+    font-size: var(--fs-md2);
+    font-weight: 800;
+}
+
+
+.title-md3{
+    font-size: var(--fs-md3);
+    font-weight: var(--fw-med);
+}
+
+.title-mdxl1{
+    font-size: var(--fs-lg1);
+    font-weight: var(--fw-Semibold);
+}
+
+.title-mdxl2{
+    font-size: var(--fs-lg1);
+    font-weight: var(--fw-bold);
+}
+
+.title-mdxl3{
+    font-size: var(--fs-lg1);
+    font-weight: var(--fw-Extrabold);
+}
+
+.title-lg{
+    font-size: var(--fs-lg2);
+    font-weight: var(--fw-bold);
+}
+
+.title-xlg{
+    font-size: var(--fs-xlg1);
+    font-weight: var(--fw-Semibold);
+}

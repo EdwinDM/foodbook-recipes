@@ -1,0 +1,10 @@
+.footer-item{
+    list-style-type: none;
+}
+
+.footer-link{
+    display: block;
+    text-decoration: none;
+    color: var(--clr-negro-001);
+    transition: .5s;
+}
