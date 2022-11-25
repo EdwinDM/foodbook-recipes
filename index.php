@@ -37,7 +37,7 @@
         onerror="this.onerror=null;this.href='./css/vendors/bootstrap.min.css';" />
     <!-- Normalize -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" />
-    <link rel="stylesheet" href="../css/main.css" />
+    <link rel="stylesheet" href="./css/main.css" />
     <!-- Fontawesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
         integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
@@ -53,16 +53,16 @@
             <div class="position-absolute  top-0 start-0 pt-3 pb-3 ps-3 mobile-bar  ">
                 <div class="row ">
                     <div class="col d-flex ">
-                        <img class="mobile-icon" src="../imgs/bars.svg" alt="menu bar">
+                        <img class="mobile-icon" src="./imgs/bars.svg" alt="menu bar">
                     </div>
 
                     <div class="col d-flex ">
-                        <img class="mobile-logo " src="../imgs/Logo.png" alt="menu bar">
+                        <img class="mobile-logo " src="./imgs/Logo.png" alt="menu bar">
                     </div>
 
                     <div class="col d-flex justify-content-center">
 
-                        <img src="../imgs/profile-image.jpg" class="profile-index2 " alt="Profile" role="button">
+                        <img src="./imgs/profile-image.jpg" class="profile-index2 " alt="Profile" role="button">
 
                     </div>
                 </div>
@@ -78,7 +78,7 @@
                 </div>
                 <div class="container container-nav center gap-3 ">
                     <a class="navbar-brand d-flex align-items-center me-5" href="#">
-                        <img src="../imgs/Logo.png" class="header-logo" alt="Logo">
+                        <img src="./imgs/Logo.png" class="header-logo" alt="Logo">
                     </a>
                     <div class=" container container-nav" id="navbarSupportedContent">
                         <ul class="navbar-nav gap-5  ">
@@ -132,7 +132,7 @@
                     <div class="col">
                         <div class="container container-nav  ">
                             <div class="dropdown">
-                                <img src="../imgs/profile-image.jpg" class="profile-index hidden-form" alt="Profile"
+                                <img src="./imgs/profile-image.jpg" class="profile-index hidden-form" alt="Profile"
                                     role="button" data-bs-toggle="dropdown" aria-expanded="false">
                                 <ul class="dropdown-menu text-center p-4">
                                     <li><a class="title-sm2 profile-text">EdwinDM</a><br><a class="title-sm2 profile-text2">edwindm2003@gmail.com</a></li>
@@ -187,7 +187,7 @@
                                 echo "<div class='col recipe-card-1'>
                                     <a href='#'>
                                         <div class='card-bg'>
-                                            <img class='card-image' src='../imgs/recipe/".$recipe["recipe_image"]."'alt='".$recipe["recipe_name"]."'/>
+                                            <img class='card-image' src='./imgs/recipe/".$recipe["recipe_image"]."'alt='".$recipe["recipe_name"]."'/>
                                             <div class='card-data'>
                                                 <div class='card-info'>
                                                     <div class='card-text'>
@@ -225,7 +225,7 @@
                 <?php
                     foreach ($new_recipe as $recipe){
                         echo "<div class='poster-bg'>
-                                <img class='img-poster' src='../imgs/recipe/".$recipe["recipe_image"]."'alt='".$recipe["recipe_name"]."'>
+                                <img class='img-poster' src='./imgs/recipe/".$recipe["recipe_image"]."'alt='".$recipe["recipe_name"]."'>
                                 <div class='poster-data '>
                                     <div class='poster-info '>
                                         <div class='poster-text'>
@@ -273,7 +273,7 @@
                                 echo "<div class='col recipe-card-1'>
                                     <a href='#'>
                                         <div class='card-bg'>
-                                            <img class='card-image' src='../imgs/recipe/".$recipe["recipe_image"]."'alt='".$recipe["recipe_name"]."'/>
+                                            <img class='card-image' src='./imgs/recipe/".$recipe["recipe_image"]."'alt='".$recipe["recipe_name"]."'/>
                                             <div class='card-data'>
                                                 <div class='card-info'>
                                                     <div class='card-text'>
@@ -303,7 +303,7 @@
                 <div class="col-md  ">
 
                     <a class="navbar-brand d-flex just mt-3 footer-img " href="#">
-                        <img src="../imgs/Logo.png" class="footer-image " alt="Logo" class="">
+                        <img src="./imgs/Logo.png" class="footer-image " alt="Logo" class="">
 
                     </a>
 
@@ -368,11 +368,11 @@
                 <div class="col-md d-flex align-items-center  justify-content-center ">
 
                     <ul class="d-flex p-0 mt-4 gap-3">
-                        <li class="d-inline-block"><a href="#"> <img class="footer-media" src="../imgs/tw.png"
+                        <li class="d-inline-block"><a href="#"> <img class="footer-media" src="./imgs/tw.png"
                                     alt="twitter"></a></li>
-                        <li class="d-inline-block"><a href="#"><img class="footer-media" src="../imgs/fb.png"
+                        <li class="d-inline-block"><a href="#"><img class="footer-media" src="./imgs/fb.png"
                                     alt="twitter"></a></li>
-                        <li class="d-inline-block"><a href="#"> <img class="footer-media" src="../imgs/ig.png"
+                        <li class="d-inline-block"><a href="#"> <img class="footer-media" src="./imgs/ig.png"
                                     alt="twitter"></a></li>
                     </ul>
 
