@@ -4,10 +4,10 @@
 }
 
 body{
+    overflow-x: hidden!important;
     font-family: var(--ff-primary);
     background: var(--clr-negro-001);
     color: var(--clr-white);
-    overflow-x: hidden!important;
 }
 
 .poster{

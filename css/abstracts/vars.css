@@ -25,7 +25,9 @@
     --fs-md3: 1.625rem;
     --fs-lg1: 2.188rem;
     --fs-lg2: 3.813rem;
+    --fs-lg3: 110px;
     --fs-xlg1: 4.4375rem;
+    --fs-xlg2: 10.688rem;
 
     /* colors */
     /*  h -> hue/color 0/360, s -> saturation 0/100, l -> lightness 0/100, a -> alpha 0/1 */
