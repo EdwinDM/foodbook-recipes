@@ -120,7 +120,7 @@
                                     <li><a class="dropdown-item" href="#">Día del madre</a></li>
                                     <li><a class="dropdown-item" href="#">Día del niño</a></li>
                                     <li><a class="dropdown-item" href="#">Navidad</a></li>
-                                    <li><a class="dropdown-item" href="#">semana Santa</a></li>
+                                    <li><a class="dropdown-item" href="#">Semana Santa</a></li>
                                     <li><a class="dropdown-item" href="#">Verano</a></li>
                                 </ul>
                             </li>
