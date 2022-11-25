@@ -6,10 +6,10 @@
         $database = new Medoo([
             // [required]
             'type' => 'mysql',
-            'host' => 'localhost',
-            'database' => 'recipes',
-            'username' => 'root',
-            'password' => '' 
+            'host' => 'db4free.net:3306',
+            'database' => 'fb_recipes',
+            'username' => 'fb_admin',
+            'password' => 'd107ab1b' 
         ]);
     }
 ?>
